@@ -41,9 +41,9 @@ allprojects {
         testImplementation 'io.rest-assured:rest-assured:3.3.0'
 
         // fixture 사용
-        testImplementation(testFixtures(project(':menu')))
-        testImplementation(testFixtures(project(':order')))
-        testImplementation(testFixtures(project(':table')))
+//        testImplementation(testFixtures(project(':menu')))
+//        testImplementation(testFixtures(project(':order')))
+//        testImplementation(testFixtures(project(':table')))
 
     }
 
